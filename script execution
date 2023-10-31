@@ -1,0 +1,15 @@
+Step-by-step shell script execution
+Create a directory to store your shell script
+Create a file in your scripts folder with a .sh extension
+Add an execute permission to the file to avoid permission denied errors during execution
+Use the ./ (dot slash)  notation and run the shell script by name in the Terminal window
+Press CTRL+C to stop the running Linux script if it does not terminate gracefully
+
+$ mkdir scripts
+$ cd scripts
+$ touch script.sh
+$ echo 'echo hello-world' >> script.sh
+$ chmod -R 777 .
+$ ./script.sh
+hello-world
+
